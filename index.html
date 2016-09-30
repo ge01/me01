@@ -15,7 +15,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-
+    <!---------------------------------Navbar---------------------------------->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -24,35 +24,35 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#profile-id">Portfolio</a>
+          <a class="navbar-brand" href="#portfolio-id">Portfolio</a>
         </div>
         <div class="collapse navbar-collapse nav navbar-nav navbar-right" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#profile-id">Home</a></li>
+            <li><a href="#intro-id">About</a></li>
+            <li><a href="#portfolio-id">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
-
+    <!------------------------------Profile Image------------------------------>
     <div class="profile" id="profile-id">
       <img class="img-responsive" src="man.jpg" />
       <div class="text-right">
         <p>Hello! I'm <b>Gabriel Escobedo</b></p>
       </div>
     </div>
-
-    <div class="jumbotron">
-      <div class="container text-center">
-        <p>I'm a Texas Gulf Coast-based freelancer with a diverse set of skills ranging
-          from digital circuit design, to HTML + CSS + Javascript.
+    <!---------------------------------Intro----------------------------------->
+    <div class="jumbotron" id="intro-id">
+      <div class="container text-left">
+        <h2>I make things...</h2>
+        <p>From digital circuits to HTML + CSS + Javascript Front-end web design, I work for you, collaboratively, to make things that help your organisation do great work.
         </p>
       </div>
     </div>
-
-    <div class="container-fluid bg-3 text-center">
+    <!--------------------------------Portfolio-------------------------------->
+    <div class="container-fluid bg-3 text-center" id="portfolio-id">
       <h3>Work in Progress</h3><br>
       <div class="row">
         <div class="col-sm-3">
@@ -94,8 +94,8 @@
         </div>
       </div>
     </div><br><br>
-
-    <footer class="footer-distributed">
+    <!---------------------------------Footer I-------------------------------->
+    <footer class="footer-distributed" id="contact">
       <div class="footer-right">
 				<a href="https://github.com/ge01"><i class="fa fa-facebook">
           <img src="http://image.flaticon.com/icons/svg/25/25231.svg" />
@@ -113,13 +113,9 @@
 			<div class="footer-left">
 				<p class="footer-links">
 					<a href="#">Home</a> ·
-    			<a href="#">Blog</a> ·
-    			<a href="#">Pricing</a> ·
-    			<a href="#">About</a> ·
-    			<a href="#">Faq</a>	·
     			<a href="#">Contact</a>
       	</p>
-				<p>Company Name © 2015</p>
+				<p>Escobedo © 2016</p>
 			</div>
 		</footer>
 
